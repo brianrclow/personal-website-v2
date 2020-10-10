@@ -107,14 +107,14 @@
       transform: scale(1.3);
   }
 
-  .contact-options {
+  .contact-options-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
   }
 
-  .contact-option {
+  .contact-option-wrapper {
     display: flex;
     flex-direction: column;
     padding: 40px;
