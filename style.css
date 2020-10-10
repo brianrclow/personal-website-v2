@@ -79,10 +79,15 @@
   
   h1{
     font-size: 2.2em;
+    font-family: 'Fugaz One', cursive;
     text-align: center;
     padding: 60px 40px 30px;
-    color: #3D4852;
+    color:#123778;
     line-height: 1.2;
+  }
+  h3{
+    text-align: center;
+    font-family: 'Suez One', serif;
   }
   p{
     line-height: 1.6;
@@ -90,6 +95,42 @@
     padding: 0 40px;
     text-align: center;
     color: #3D4852;
+  }
+
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+    margin: 10px auto;
+}
+
+  .zoom:hover {
+      transform: scale(1.3);
+  }
+
+  .contact-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .contact-option {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .contact-option-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .headshot {
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   .page-wrap {
