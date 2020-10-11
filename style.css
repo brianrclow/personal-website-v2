@@ -222,7 +222,9 @@ p{
 
 /* CONTACT */
 .zoom {
-  height: 6em;
+  /* height: 6em; */
+  width: 100%;
+  height: auto;
   transition: transform .2s; /* Animation */
   margin: 10px auto;
 }
