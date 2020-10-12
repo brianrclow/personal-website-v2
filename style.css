@@ -165,7 +165,7 @@ p{
   background-color: rgb(235, 156, 91);
 }
 .photoresizer-project {
-  background-color: rgb(171, 119, 195);
+  background-color: rgb(233, 235, 128);
 }
 .degreeplanner-project {
   background-color: rgb(246, 97, 104);
@@ -175,6 +175,9 @@ p{
 }
 .mydwell-project {
   background-color: rgb(104, 166, 177);
+}
+.calculateit-project {
+  background-color: rgb(175, 120, 171);
 }
 .project-image-wrapper {
   display: flex;
