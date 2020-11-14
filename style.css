@@ -113,6 +113,11 @@ p{
   padding: 20px;
 }
 
+.intro-text {
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
 /* ABOUT */
 .headshot-wrapper{
   display: flex;
@@ -152,6 +157,7 @@ p{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 .project-wrapper {
   display: flex;
@@ -245,6 +251,8 @@ p{
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .contact-option-wrapper {
   display: flex;
